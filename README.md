@@ -9,7 +9,7 @@ The following variables are used through the Python scripts:
 * `C_lk` and `B_lk` - binomial random variables to calculate the number of people infected or recovered at state `k`
 * `p` - probability of recovery
 * `q_k` - probability of becoming infected
-* `beta` - variable used within `q_k`, to be determined
+* `beta` - variable used within `q_k`, to be determined. Its true distribution is unknown, but we start from the assumption of a prior Uniform(0,1) distribution.
 
 The Python scripts tagged with `Q1` and `Q2` form the baseline code of the Markov Chain simulation.
 
